@@ -1,0 +1,24 @@
+{
+  "name": "montvo-unlock-example",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Verifying a Montvo unlock the safe way: ticket per visit, server-side key, billable check, claim once.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "16.3.4",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5"
+  }
+}
